@@ -1,0 +1,216 @@
+
+.navbar{
+    height: 150px;
+    z-index: 3;
+    background-color: white;
+}
+.navbar-inner {
+    background-color: white;
+}
+.nav-link{
+    font-size: 1.5em;
+}
+.navbar-collapse{
+    background-color: white;
+}
+.navbar-brand{
+
+}
+.navbarNav{
+    width: 2em;
+    text-align: center;
+}
+#main-header{
+    position: absolute;
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+#main-header-about{
+    position: absolute;
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+#bg {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+	
+    /* Preserve aspet ratio */
+    width: 100%;
+    filter: blur(12px);
+    -webkit-filter: blur(12px); 
+    z-index: 1;
+    
+}
+#bg-contact {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    /* Preserve aspet ratio */
+    width: 100%;
+    height: auto;
+    filter: blur(12px);
+    -webkit-filter: blur(12px); 
+    z-index: 1;
+    
+}
+.main-button{
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-width: 7px;
+    border-color: white;
+    border-radius: 100px;
+    border-style: solid;
+    padding: 15px;
+    background-color:red;
+    
+}
+.main-button a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-style: bolder;
+    
+}
+#contact-form{
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    z-index: 2;
+    color: white;
+    font-style: bold;
+}
+#mobile-logo{
+    display: none;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+    height: 35px;
+}
+.footer-text{
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+.container{
+    position: absolute;
+    z-index: 3;
+    top: 1000px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+    margin-bottom: 30px;
+}
+.container-header{
+    text-align: center;
+    width: 100%;
+}
+.sub-header{
+    z-index: 3;
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container-img{
+    margin-left: 25px;
+}
+.col-sm{
+   
+}
+.about-text{
+    font-size: 2em;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0,0,0, 0.5);
+    
+}
+@media only screen and (max-width: 600px) {
+    
+    #contact-form{
+        width: 80%;
+        top: 50%;
+        color: black;
+    }
+    #bg{
+        filter: blur(1px);
+    -webkit-filter: blur(1px);
+        top: 230px;
+        width: 100%;
+        background-size: cover;
+    }
+     #bg-contact{
+        filter: blur(1px);
+    -webkit-filter: blur(1px);
+        top: 75%;
+        width: 100%;
+        background-size: cover;
+    }
+    .navbar{
+        height: 120px;
+    }
+    #main-header{
+        top: 170px;
+        color: black;
+        width: 90%;
+        font-size: 2.1em;
+        
+    }
+    .main-button{
+        top: 550px;
+    }
+    iframe{
+        width: 100%;
+        text-align: center;
+        left: 0;
+        top: 675px;
+    }
+    footer{
+     bottom: 0;
+    }
+    .sub-header{
+        top: 660px;
+        width: 90%;
+        text-align: center;
+    }
+    .container{
+        border: none;
+        top: 1150px;
+        
+    
+    }
+    .container-header{
+        font-size: 1.5em;
+        top: 600px;
+    }
+}
